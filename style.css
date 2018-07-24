@@ -1,0 +1,118 @@
+html body {
+    width: auto;
+    height: auto;
+}
+
+/*Header*/
+
+header {
+    text-align: center;
+    background-image: url(images/astronomy-2179083__340.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin: auto;
+}
+
+/*Navigation*/
+
+nav {
+    padding: 10px 10px;
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav li {
+    padding: 5px 20px 10px 20px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: aquamarine;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+/*CONTENT - Left displayed banners*/
+
+.leftBanner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.leftBannerTitle {
+    width: 600px;
+    padding: 3px 0px 3px 0px;
+    text-align: justify;
+    background-color: orange;
+}
+
+.leftBannerTitle h2 {
+    padding: 63px 45px 63px 45px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.leftBannerContent {
+    background-color: powderblue;
+}
+
+.leftBannerContent p {
+    width: 767px;
+    padding: 60px 60px 60px 60px;
+    text-align: justify;
+}
+
+.leftBannerImage {
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+}
+
+/*CONTENT Right displayed banners*/
+
+.rightBanner {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.rightBannerTitle {
+    width: 600px;
+    padding: 3px 0px 3px 0px;
+    background-color: orange;
+}
+
+.rightBannerTitle h2 {
+    padding: 63px 45px 63px 45px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.rightBannerContent {
+    background-color: powderblue;
+}
+
+.rightBannerContent p {
+    width: 767px;
+    padding: 60px 60px 60px 60px;
+    text-align: justify;
+}
+
+.rightBannerImage {
+    padding: 10px 10px 10px 10px;
+    background-color: green;
+}
+
+.recruitmentForm iframe{
+    width: 1887px;
+    margin-bottom: 300px;
+}
