@@ -20,14 +20,15 @@ h1 {
 
 nav {
     margin: 0px;
-    list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    list-style: none;
     background-color: black;
 }
 
 nav li {
+    width: 4%;
     padding: 7.5px 15px 7.5px 15px;
     border: 2px solid red;
     border-radius: 5px;
