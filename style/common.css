@@ -1,9 +1,3 @@
-body{
-    width: auto;
-    height: auto;
-    margin: 0px;
-}
-
 /*Header*/
 
 header {
@@ -18,8 +12,10 @@ h1 {
 
 /*Navigation*/
 
-nav {
-    margin: 0px;
+#navigation nav {
+    margin: 0%;
+    width: auto;
+    height: 37px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -27,14 +23,15 @@ nav {
     background-color: black;
 }
 
-nav li {
-    width: 4%;
+#navigation nav li {
+    width: 5%;
+    height: 48%;
     padding: 7.5px 15px 7.5px 15px;
     border: 2px solid red;
     border-radius: 5px;
     background-color: aquamarine;
 }
 
-nav li a {
+#navigation nav li a {
     text-decoration: none;
 }
