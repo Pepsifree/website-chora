@@ -1,0 +1,57 @@
+/*CONTENT - Left displayed banners*/
+.banners {
+    width: 100%;
+    display: flex;
+.leftBanner {
+    flex-direction: row;
+    flex-wrap: wrap;
+.rightBanner {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+        .bannerImage {
+            width: 10%;
+            padding: 1%;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        .bannerTitle {
+            width: 25%;
+            padding: 0.5%;
+            text-align: justify;
+            background-color: orange;
+                .h2 {
+                    margin: 10%;
+                    padding: 10%;
+                    text-align: center;
+                    background-color: aqua;
+        .bannerDescription {
+                    margin: 0%;
+                    padding: 1%;
+                    width: 60%;
+                    z-index: -999;
+                    margin-right: -62%;
+                    background-color: powderblue;
+                p {
+                    margin: 0.5%;
+                    padding: 5%;
+                    text-align: center;
+                    background-color: red;
+                    .banners:hover .bannerDescription {
+                        -webkit-transition: 2s;
+                        transition: 3s;
+                        margin-right: 0px;
+                    .banners:not(:hover) .bannerDescription {
+                        -webkit-transition: 2s;
+                        transition: 2s;
+                        margin-left: -62%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+}
