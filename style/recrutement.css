@@ -1,0 +1,63 @@
+/*Container*/
+.OurAssets{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: gray;
+}
+
+.AssetContent{
+    width: 25%;
+    padding: 5%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;   
+}
+
+.AssetIcon{
+    width: 100%;
+    background-color: red;
+
+}
+
+.AssetTitle{
+    width: 100%;
+    padding: 1% 0% 1% 0%;
+    font-size: 200%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: wheat;
+}
+
+.AssetText{
+    width: 100%;
+    font-size: 110%;
+    display: flex;
+    background-color: aqua;
+}
+
+li{
+    padding: 5% 0% 1% 0%;
+}
+
+.AssetButton{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.AssetButtonTexte{
+    padding: 3% 3% 3% 3%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border-width: 5% 5% 5% 5%; 
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+

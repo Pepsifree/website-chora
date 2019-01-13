@@ -1,62 +1,47 @@
-/*Container*/
-.OurAssets{
+.videoInsert {
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.imageInsert {
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+    margin-top: -19%;     
+}
+
+.container {
+    position: absolute;
+    background-color: orange;
+    z-index: 1;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: gray;
+    margin: 0%;
 }
 
-.AssetContent{
-    width: 25%;
-    padding: 5%;
-    background-color: orange;
-    display: flex;
-    flex-direction: column;   
-}
-
-.AssetIcon{
+.logosContainer {
     width: 100%;
-    background-color: red;
-
-}
-
-.AssetTitle{
-    width: 100%;
+    background-color:brown;
+    display: flex;
+    justify-content: space-around;
     padding: 1% 0% 1% 0%;
-    font-size: 200%;
-    display: flex;
-    justify-content: flex-start;
-    background-color: wheat;
+    margin-top: -1%;
 }
 
-.AssetText{
-    width: 100%;
-    font-size: 110%;
-    display: flex;
-    background-color: aqua;
+image {
+    width: 0%;
+    height: auto;
 }
-
-li{
-    padding: 5% 0% 1% 0%;
-}
-
-.AssetButton{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.AssetButtonTexte{
-    padding: 3% 3% 3% 3%;
-    width: 25%;
-    display: flex;
-    justify-content: center;
-    border-width: 5% 5% 5% 5%; 
-    border-radius: 10px 10px 10px 10px;
-}
-
-
-
