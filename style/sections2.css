@@ -1,0 +1,84 @@
+/*CONTENT - Left displayed banners*/
+.banners {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banners .leftBanner {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.banners .leftBanner .rightBanner {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.banners .leftBanner .rightBanner .bannerImage {
+  width: 10%;
+  padding: 1%;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banners .leftBanner .rightBanner .bannerImage .bannerTitle {
+  width: 25%;
+  padding: 0.5%;
+  text-align: justify;
+  background-color: orange;
+}
+
+.banners .leftBanner .rightBanner .bannerImage .bannerTitle .h2 {
+  margin: 10%;
+  padding: 10%;
+  text-align: center;
+  background-color: aqua;
+}
+
+.banners .leftBanner .rightBanner .bannerImage .bannerTitle .h2 .bannerDescription {
+  margin: 0%;
+  padding: 1%;
+  width: 60%;
+  z-index: -999;
+  margin-right: -62%;
+  background-color: powderblue;
+}
+
+.banners .leftBanner .rightBanner .bannerImage .bannerTitle .h2 .bannerDescription p {
+  margin: 0.5%;
+  padding: 5%;
+  text-align: center;
+  background-color: red;
+}
+
+.banners .leftBanner .rightBanner .bannerImage .bannerTitle .h2 .bannerDescription p .banners:hover .bannerDescription {
+  -webkit-transition: 2s;
+  -webkit-transition: 3s;
+  transition: 3s;
+  margin-right: 0px;
+}
+
+.banners .leftBanner .rightBanner .bannerImage .bannerTitle .h2 .bannerDescription p .banners:hover .bannerDescription .banners:not(:hover) .bannerDescription {
+  -webkit-transition: 2s;
+  transition: 2s;
+  margin-left: -62%;
+}
+/*# sourceMappingURL=sections.css.map */
