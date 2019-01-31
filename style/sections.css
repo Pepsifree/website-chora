@@ -3,7 +3,7 @@
 #bannerContainer {
     position: absolute;
     width: 100%;
-    margin-top: 1.5%;
+    margin-top: 1.9%;
 }
 
 .banners {
@@ -12,7 +12,7 @@
     display: flex;
 }
 
-/* Display */
+/* General Display */
 
 .leftBanner {
     flex-direction: row;
@@ -24,11 +24,11 @@
     flex-wrap: wrap;
 }
 
-/* Layout */
+/* Internal Layout */
 
 .bannerImage {
     width: 10%;
-    padding: 1%;
+    padding: 1%,1%,1%,1%;
     display: flex;
     justify-content: center;
     background-color: green;
@@ -84,6 +84,83 @@
     text-align: center;
     background-color: red;
 }
+
+/*Images*/
+
+#cdc {
+    background-image: url("../assets/images/ambasador.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#cac {
+    background-image: url("../assets/images/Airforce.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#rtc {
+    background-image: url("../assets/images/Transport.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#demp {
+    background-image: url("../assets/images/mining.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#dimr {
+    background-image: url("../assets/images/repair.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#dse {
+    background-image: url("../assets/images/explo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#dsr {
+    background-image: url("../assets/images/scientist.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#smh {
+    background-image: url("../assets/images/medic.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+
+
 
 /* transition*/
 
