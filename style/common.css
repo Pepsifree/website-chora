@@ -1,32 +1,29 @@
-/*Header*/
-
-header {
-    text-align: center;
-    background-image: url(images/astronomy-2179083__340.jpg);
-    background-repeat: no-repeat;
-    z-index: 100;
-    position: absolute;
-    width: 100%;
-    margin-top: 10%;
-}
-
-h1 {
-    margin: auto;
+body {
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    width: auto;
 }
 
 /*Navigation*/
 
+#navigation {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    background-color: black;
+    z-index: 1000;
+}
 
 #navigation nav {
-    margin: 0%;
     width: 100%;
-    height: 37px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
     list-style: none;
-    background-color: black;
 }
 
 #navigation nav li {
@@ -43,11 +40,57 @@ h1 {
     text-decoration: none;
 }
 
+/*Sections Images*/
+
+.sectionImageContainer {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    height: auto;
+}
+
+#chora {
+    background-image: url("../assets/images/CHORA.png");
+}
+
+#cdc {
+    background-image: url("../assets/images/ambasador.png");
+}
+
+#cac {
+    background-image: url("../assets/images/Airforce.png");
+}
+
+#rtc {
+    background-image: url("../assets/images/Transport.png");
+}
+
+#demp {
+    background-image: url("../assets/images/mining.png");
+}
+
+#dimr {
+    background-image: url("../assets/images/repair.png");
+}
+
+#dse {
+    background-image: url("../assets/images/explo.png");
+}
+
+#dsr {
+    background-image: url("../assets/images/scientist.png");
+}
+
+#smh {
+    background-image: url("../assets/images/medic.png");
+}
+
 /*Footer*/
 
-#footer {
-    max-width: auto;
-    max-height: auto;
-    padding: auto;
-    background-color: grey;
+footer {
+    width: 100%;
+    height: 50%;
+    z-index: 999;
+    background-color: blue;
 }
