@@ -3,6 +3,9 @@ body {
     flex-direction: column;
     height:auto;
     width: auto;
+    background-image: url("../assets/images/mainBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*Navigation*/
@@ -12,10 +15,7 @@ body {
     height: auto;
     overflow: hidden;
     position: fixed;
-    background-color: black;
-    z-index: 1000;
-
-    
+    z-index: 999;  
 }
 
 #navigation nav {
@@ -32,25 +32,19 @@ body {
     min-width: 5%;
     min-height: 48%;
     padding: 0.3%;
-    border: 2px solid red;
+    border: 2px solid goldenrod;
     border-radius: 5px;
     text-align: center;
-    background-color: aquamarine;
 }
 
-#navigation nav li a {
+nav li a {
     text-decoration: none;
 }
 
+
 /*Sections Images*/
 
-.sectionImageContainer {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 90%;
-    height: auto;
-}
+
 
 #chora {
     background-image: url("../assets/images/CHORA.png");
