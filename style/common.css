@@ -8,6 +8,15 @@ body {
     background-size: cover;
 }
 
+a {
+    color: #707070;
+    font-size: 2px;
+  }
+  
+  a:visited {
+    color: #986E24
+  }
+
 /*Navigation*/
 
 #navigation {
@@ -32,7 +41,7 @@ body {
     min-width: 5%;
     min-height: 48%;
     padding: 0.3%;
-    border: 2px solid goldenrod;
+    border: 2px solid #986E24;
     border-radius: 5px;
     text-align: center;
 }
@@ -48,45 +57,89 @@ nav li a {
 
 #chora {
     background-image: url("../assets/images/CHORA.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#choraNoBg {
+    background-image: url("../assets/images/chora-nobg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #cdc {
     background-image: url("../assets/images/ambasador.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #cac {
     background-image: url("../assets/images/Airforce.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #rtc {
     background-image: url("../assets/images/Transport.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #demp {
     background-image: url("../assets/images/mining.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #dimr {
     background-image: url("../assets/images/repair.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #dse {
     background-image: url("../assets/images/explo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #dsr {
     background-image: url("../assets/images/scientist.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #smh {
     background-image: url("../assets/images/medic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /*Footer*/
 
 footer {
     width: 100%;
-    height: 50%;
-    z-index: 999;
-    background-color: blue;
+    height: 312px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+    color: #707070;
+}
+
+#mbcLogo {
+    position: relative;
+    width: 74px;
+    height: 74px;
+    margin: 220px 40px 0px 1820px;
+    background-image: url("../assets/images/FanKit/03_LOGOS/MadeByTheCommunity_Black.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
