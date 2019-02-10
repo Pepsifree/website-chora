@@ -1,7 +1,7 @@
 #topImage {
     width: 1840px;
     height: 230px;
-    margin: 45px 40px 0px 40px;
+    margin: 45px 30px 0px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,11 +19,10 @@
 #logosContainer {
     width: 1840px;
     height: 94px;
-    margin: 1px 50px 0px 50px;
+    margin: 70px 50px 0px 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .sectionImageContainer {
@@ -37,7 +36,7 @@
 .mainTitle {
     width: 1840px;
     height:84px;
-    margin: 70px 40px 70px 40px;
+    margin: 70px 30px 70px 30px;
     font-size: 31px;
     color: #986E24;
     border: 1px solid #707070;
@@ -55,7 +54,7 @@
     flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 75px 0px 75px;
 }
 
 .ovBlock {
@@ -121,7 +120,7 @@
 
 #assetsContainer {
     width: 1721px;
-    margin: 0px 100px 0px 100px;
+    margin: 0px 75px 0px 75px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

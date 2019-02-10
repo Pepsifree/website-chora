@@ -87,25 +87,21 @@
 /* transition*/
 
 .banners:hover .leftBannerDescription {
-    -webkit-transition: 2s;
     transition: 3s;
     margin-right: 0%;
 }
 
 .banners:not(:hover) .leftBannerDescription {
-    -webkit-transition: 2s;
     transition: 2s;
     margin-left: -62%;
 }
 
 .banners:hover .rightBannerDescription {
-    -webkit-transition: 2s;
     transition: 3s;
     margin-left: 0px;
 }
 
 .banners:not(:hover) .rightBannerDescription {
-    -webkit-transition: 2s;
     transition: 2s;
     margin-right: -62%; 
 }
