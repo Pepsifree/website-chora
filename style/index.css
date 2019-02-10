@@ -18,16 +18,18 @@
 
 #logosContainer {
     width: 1840px;
-    height: 50px;
-    padding: 1px 50px 0px 50px;
+    height: 94px;
+    margin: 1px 50px 0px 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
 }
 
 .sectionImageContainer {
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0px 47px 0px 0px;
     width: 94px;
     height: auto;
 }
@@ -74,6 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 28px;
     color: #707070;
 }
 .ovTexte {
