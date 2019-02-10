@@ -53,7 +53,7 @@ h3 {
 
 #ovContainer {
     width: 90%;
-    height: auto;
+    height: 70%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@ h3 {
 
 .ovBlock {
     width: 20%;
-    height: 403px;
+    height: 100%;
     margin: 10px 10px 10px 10px; 
     display: flex;
     flex-direction: row;
@@ -74,7 +74,7 @@ h3 {
 .blockTitle {
     width: 100%;
     height: 64px;
-    margin: 0px 0px 70px;
+    margin: 0px 0px 70px 0px;
     border: 1px solid #707070;
     border-radius: 5px;
     display: flex;
@@ -89,38 +89,38 @@ h3 {
 }
 .ovTexte {
     width: 100%;
-    height: auto;
+    min-height: 150px;
+    max-height: 250px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
     border: 1px solid #707070;
     border-radius: 5px;
-    padding: 14px;
-    
+    padding: 10px;   
 }
 
 .ovTexte p {
     width: 100%;
-    height: auto;
+    height: 90%;
+    max-height: 90%;
     color: #4F667B;
 }
 
 .ovButton {
-    width: auto;
-    height: 30px;
+    width: 100%;
+    height: 25px;
+    margin-top: 1px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
 }
 
 .moreImg {
     display: block;
     width: 25px;
     height: 25px;
-    margin-top: 3px;
+    margin-top: -3px;
     background-image: url("../assets/images/navigate_next_grey_192x192.png");
     background-repeat: no-repeat;
     background-size: contain;
