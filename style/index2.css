@@ -1,0 +1,81 @@
+#topImage {
+    height: 230px;
+    /*background-image: url("../assets/images/lire3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: azure;  
+}
+
+.mainTitle {
+    
+    border: 1px solid #707070;
+}
+
+h3 {
+}
+
+#ovContainer {
+
+}
+
+.ovBlock {
+}
+
+.blockTitle {
+    border: 1px solid #707070
+}
+
+h3 {
+    
+}
+.ovTexte {
+    border: 1px solid #707070
+
+}
+
+.ovTexte p {
+    
+}
+
+.ovButton {
+    
+}
+
+.moreImg {
+    
+}
+
+#assetsContainer {
+}
+
+.assetBlock {
+    border: 1px solid #707070
+}
+
+.leftBlock {
+    
+}
+
+.rightBlock {
+    
+}
+
+.assetTitle{
+    
+}
+
+.assetTexte {
+    
+}
+
+.assetTexte p {
+    
+}
+
+.assetButton{
+    
+}
+
+.assetButtonTexte{
+    
+}
