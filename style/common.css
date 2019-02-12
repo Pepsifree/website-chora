@@ -3,12 +3,6 @@ header {
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height:auto;
     background-image: url("../assets/images/mainBg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -59,66 +53,50 @@ nav li a {
 
 /*Sections Images*/
 
-
+.logos {
+    height: 94px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 #chora {
     background-image: url("../assets/images/CHORA.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 #choraNoBg {
     background-image: url("../assets/images/chora-nobg.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 #cdc {
-    background-image: url("../assets/images/ambasador.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("../assets/images/ambasador.png"); 
 }
 
 #cac {
-    background-image: url("../assets/images/Airforce.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("../assets/images/Airforce.png");   
 }
 
 #rtc {
-    background-image: url("../assets/images/Transport.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("../assets/images/Transport.png");   
 }
 
 #demp {
-    background-image: url("../assets/images/mining.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("../assets/images/mining.png");  
 }
 
 #dimr {
-    background-image: url("../assets/images/repair.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("../assets/images/repair.png");  
 }
 
 #dse {
-    background-image: url("../assets/images/explo.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-image: url("../assets/images/explo.png");  
 }
 
 #dsr {
     background-image: url("../assets/images/scientist.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 #smh {
     background-image: url("../assets/images/medic.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 /*Footer*/
