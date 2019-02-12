@@ -5,6 +5,7 @@
 }
 
 .banners {
+	z-index: 1;
     width: 100%;
     max-width: 100%;
     display: flex;
@@ -25,6 +26,7 @@
 /* Internal Layout */
 
 .bannerImage {
+	 z-index: 2;
     width: 10%;
     padding: 1%,1%,1%,1%;
     display: flex;
@@ -33,6 +35,7 @@
 }
 
 .bannerTitle {
+	z-index: 2;
     margin: 0%;
     padding: 1%;
     width: 24%;
@@ -51,6 +54,7 @@
 } 
 
 .bannerTitle li {
+	  
     width: 45%;
     display: flex;
     flex-direction: column;
@@ -71,7 +75,6 @@
     padding: 1%;
     width: 60%;
     min-width: 10%;
-    z-index: -999;
     padding-top: 1%; 
     background-color: powderblue;
 }
@@ -82,29 +85,24 @@
     text-align: center;
     background-color: red;
 }
-
-
-/* transition*/
-
-.banners:hover .leftBannerDescription {
-    transition: 3s;
-    margin-right: 0%;
+.leftstrap {
+	position:relative;
+	width: 0px;
+	padding: 25px;
+	background-color: purple;
+	
+}
+.rightstrap {
+	position:relative;
+	width: 0px;
+	padding: 25px;
+	background-color: purple;
+	
 }
 
-.banners:not(:hover) .leftBannerDescription {
-    transition: 2s;
-    margin-left: -62%;
-}
 
-.banners:hover .rightBannerDescription {
-    transition: 3s;
-    margin-left: 0px;
-}
 
-.banners:not(:hover) .rightBannerDescription {
-    transition: 2s;
-    margin-right: -62%; 
-}
+
 
 
 
